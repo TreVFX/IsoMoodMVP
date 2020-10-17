@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block body%} 
+
+
+
+<img id="logo" src="{{ url_for('static', filename='IsoMood.png') }}" alt="logo">
+
+<div class="col">
+  <a href="/user/{{ myid }}/schedule">Schedule</a>
+  </div>
+<div class="col">Suggestions</div>
+<div class="col">Safe Space</div>
+<div class="col off">ChatBuddy</div>
+
+{% endblock %}

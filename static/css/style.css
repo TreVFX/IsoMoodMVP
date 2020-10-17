@@ -1,0 +1,86 @@
+body{
+  background-color: #03989e;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 230px;
+  height: 230px;
+}
+
+.android_bar{
+  position: relative;
+  padding: 5px 5px;
+  background-color: #8190A5;
+}
+
+.android_bar a{
+  color: #FFFFFF;
+}
+
+.avtext{
+  position: relative;
+  color: #FFFFFF;
+  left: 80%;
+}
+
+.btns{;
+  color: white;
+  text-align: center;
+  display: block;
+  width: 70%;
+  margin: 10px auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.btn1{
+  background-color: #f1a94e;
+}
+
+.btn2{
+  background-color: #c3c3c3;
+}
+
+.btn1 a{
+  color: #ed1c24;
+}
+
+btn2 a{
+  color: #18b14c;
+}
+
+.btn1, .btn2{
+  font-family: Algerian;
+  padding: 14px 25px;
+}
+
+.col{
+  background-color: #f1a94e;
+  text-align: center;
+  padding: 10px 14px;
+  width: 30%;
+  margin: 5px auto;
+}
+
+.col a{
+  color: #000000;
+}
+
+.off{
+  background-color: #343F4B;
+  color: #FFFFFF;
+}
+
+.form{
+  text-align: center;
+}
+
+.form input{
+  margin: 5px auto;
+  display: block;
+}
+

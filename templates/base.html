@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DB</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <nav class="android_bar">
+    <a href="{{ url_for('index') }}">IsoMood</a>
+  </nav>
+  {% block body%} {% endblock %}
+</body>
+</html>

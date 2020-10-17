@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body%} 
+
+<img id="logo" src="{{ url_for('static', filename='IsoMood.png') }}" alt="logo">
+
+<h4> {{ message }} </h4>
+
+<form class="form" action="/add_user" method="POST">
+  <input type="email" name="mail" placeholder="Email" />
+  <input type="text" name="username" placeholder="Username" />
+  <input type="password" name="password" placeholder="Password" />
+  <input type="password" name="con_pass" placeholder="Confirm Password" />
+  <input type="submit" value="Sign Up">
+</form>
+
+{% endblock %}
